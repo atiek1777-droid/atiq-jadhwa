@@ -1,0 +1,120 @@
+{
+  "brand": {
+    "name": "Atiq Al-Jadhwa",
+    "tagline": "I build, improve, and solve business problems — from idea to execution."
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "work": "Work",
+    "restaurant": "Restaurant Solutions",
+    "insights": "Insights",
+    "contact": "Contact",
+    "cta": "Start a conversation",
+    "whatsapp": "WhatsApp",
+    "aiAssistant": "Atiq AI"
+  },
+  "hero": {
+    "eyebrow": "Business Development · Digital Solutions · AI",
+    "headline": "When your business has a problem, you don't need scattered vendors — you need someone who understands the whole problem and builds the solution.",
+    "sub": "I work with business owners and restaurants to diagnose the real problem, then build the solution: from websites and identity, to internal systems and pricing, to growth and marketing.",
+    "ctaPrimary": "View work",
+    "ctaSecondary": "Message on WhatsApp",
+    "ctaAi": "Try Atiq AI"
+  },
+  "framework": {
+    "title": "Build. Improve. Grow.",
+    "build": { "label": "Build", "desc": "Business setup, brand identity, websites, and the digital infrastructure a project needs from zero." },
+    "improve": { "label": "Improve", "desc": "Finding operational weak points and fixing them: workflow, spreadsheets, dashboards, inventory, and cost control." },
+    "grow": { "label": "Grow", "desc": "Creating real growth opportunities through marketing, content, social media, SEO, and AI automation." }
+  },
+  "capabilities": {
+    "title": "Areas of work",
+    "items": [
+      { "title": "Business Development", "desc": "Understanding the problem before proposing a solution, and tying operational decisions to outcomes." },
+      { "title": "Digital Solutions", "desc": "Websites and systems built for the project's actual need, not off-the-shelf templates." },
+      { "title": "Branding & Creative", "desc": "Visual identity and content that reflect what the project really is." },
+      { "title": "Operations & Systems", "desc": "Organizing workflow and data so operations become measurable." },
+      { "title": "Growth Strategy", "desc": "Marketing and pricing plans grounded in the project's actual position." },
+      { "title": "AI & Automation", "desc": "Practical tools and automation built into existing workflow, not standalone experiments." }
+    ]
+  },
+  "restaurant": {
+    "titleAr": "Restaurant Business Solutions",
+    "intro": "Restaurants don't just need marketing — they need someone who understands the operation itself: cost, pricing, inventory, and the team. Here I work on the business from the inside out.",
+    "framework": ["Diagnose", "Cost", "Control", "Organize", "Improve", "Grow"],
+    "areas": [
+      "Recipe costing and per-item pricing",
+      "Ingredient quantities and purchasing",
+      "Inventory, warehousing, and waste",
+      "Team organization and task structure",
+      "Reporting and profitability",
+      "Customer experience and digital ordering",
+      "Spreadsheet systems and tracking dashboards",
+      "Digital presence and marketing",
+      "AI automation for repetitive operations"
+    ],
+    "cta": "Have a problem in your restaurant? Let's identify it first.",
+    "ctaStart": "Start a diagnosis with Atiq AI"
+  },
+  "nextra": {
+    "title": "The NEXTRA-AI System",
+    "body": "NEXTRA-AI is the platform through which the technical and AI solutions I build for clients are delivered — from automation and analysis to systems and intelligent chat.",
+    "roles": { "atiq": "Atiq Al-Jadhwa — Founder / Builder", "nextra": "NEXTRA-AI — Business & Technology Platform" },
+    "cta": "Explore NEXTRA-AI"
+  },
+  "contact": {
+    "title": "Let's start the conversation",
+    "sub": "Tell me about your project or the problem you're facing, and I'll get back to you directly.",
+    "whatsappCta": "Message on WhatsApp",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send",
+    "success": "Your message has been sent. I'll be in touch soon.",
+    "error": "Couldn't send the message. Try WhatsApp directly."
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Built by NEXTRA-AI"
+  },
+  "ai": {
+    "name": "Atiq AI",
+    "greeting": "Hi, I'm Atiq AI. Tell me about your project or the problem you're facing.",
+    "placeholder": "Type your message...",
+    "quickActions": [
+      "Help me diagnose my project's problem",
+      "I need a website",
+      "I need to develop my restaurant",
+      "I want to build a brand identity",
+      "What services do you offer?",
+      "Show me your work",
+      "I want to reach out on WhatsApp"
+    ],
+    "whatsappHandoff": "Continue on WhatsApp",
+    "error": "A temporary error occurred, try again or reach out on WhatsApp.",
+    "rateLimited": "You've hit the message limit for now, try again shortly."
+  },
+  "work": {
+    "title": "Work",
+    "sub": "Real projects I've worked on — building, improving, and growing.",
+    "viewProject": "View project",
+    "visitSite": "Visit site",
+    "filters": { "all": "All" }
+  },
+  "about": {
+    "title": "About Atiq Al-Jadhwa",
+    "positioning": "Not just a designer, not just a developer, not just a marketer — the person who understands the business problem, defines what's actually needed, and builds the solution from idea to execution.",
+    "approach": "I work in three stages: build the foundation, improve what already exists, then create real growth opportunities — based on what the project actually needs."
+  },
+  "insights": {
+    "title": "Insights",
+    "sub": "Writing on business development, operations, and AI.",
+    "empty": "No published articles yet."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "sub": "The link you followed isn't available.",
+    "cta": "Back to home"
+  }
+}

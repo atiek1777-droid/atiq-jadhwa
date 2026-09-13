@@ -1,0 +1,44 @@
+@import "../styles/fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-canvas text-ink antialiased;
+  }
+  ::selection {
+    @apply bg-primary/20 text-ink;
+  }
+  :focus-visible {
+    outline: 2px solid #5400de;
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Thin editorial rule used throughout the graphic language */
+.rule {
+  @apply border-t border-border/60;
+}
+
+@layer components {
+  /* Shared input style for every /admin form field */
+  .admin-input {
+    @apply w-full rounded-lg border border-border/60 bg-paper px-3 py-2 text-sm outline-none;
+    @apply focus-visible:border-primary;
+  }
+}

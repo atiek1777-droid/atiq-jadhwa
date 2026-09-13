@@ -1,0 +1,45 @@
+/*
+  Font system — chosen after inspecting the supplied 92-file Arabic font library.
+  Most files in that library are ornamental/dingbat fonts (frames, leaves, borders,
+  decorative swashes) and are NOT usable as UI or body text. The three roles below
+  use the only genuinely legible families found in the pack.
+
+  - Cairo            -> primary Arabic UI + body text (clean, modern, highly legible at small sizes)
+  - Amiri             -> Arabic display/editorial family for Hero, H1, H2 (naskh-based, premium/editorial feel)
+  - RTL-EleganceArPro -> single decorative accent, used sparingly (section eyebrows, large numerals) — never body text
+  - Latin family: the pack contains no Latin/English typeface. In production, pair with a
+    licensed or Google-hosted Latin family (e.g. via next/font/google) rather than a system font.
+    Until that is wired up, latin text falls back to the OS UI font.
+*/
+
+@font-face {
+  font-family: "Cairo";
+  src: url("/fonts/Cairo-Regular.ttf") format("truetype");
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("/fonts/Amiri-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Amiri";
+  src: url("/fonts/Amiri-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "EleganceArPro";
+  src: url("/fonts/EleganceArPro-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
